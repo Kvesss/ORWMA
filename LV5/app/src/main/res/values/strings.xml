@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">LV5DK</string>
+    <string name="app_name">Famous Scientists</string>
+    <string name="inspiration">INSPIRATION</string>
+    <string name="Top3">TOP 3</string>
 </resources>
