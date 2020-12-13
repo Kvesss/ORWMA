@@ -2,4 +2,21 @@
     <string name="app_name">Famous Scientists</string>
     <string name="inspiration">INSPIRATION</string>
     <string name="Top3">TOP 3</string>
+    <string name="nameEuler">Leonhard Euler</string>
+    <string name="nameGauss">Carl Friedrich Gauss</string>
+    <string name="nameLeibniz">Gottfried Wilhelm Leibniz</string>
+    <string name="ageEuler">1707. - 1783.</string>
+    <string name="ageGauss">1777. - 1855</string>
+    <string name="ageLeibniz">1646- - 1716</string>
+    <string name="descEuler">Leonhard Euler was a Swiss mathematician, physicist, astronomer, geographer, logician
+        and engineer who made important and influential discoveries in many branches of mathematics, such as infinitesimal
+        calculus and graph theory, while also making pioneering contributions to several branches such as topology and analytic
+        number theory. He also introduced much of the modern mathematical terminology and notation, particularly for
+        mathematical analysis, such as the notion of a mathematical function. He is also known for his work in mechanics,
+        fluid dynamics, optics, astronomy and music theory.</string>
+    <string name="descGauss">Johann Carl Friedrich Gauss was a German mathematician and physicist who made significant
+        contributions to many fields in mathematics and science. Sometimes referred to as the Princeps mathematicorum
+        (Latin for the foremost of mathematicians) and the greatest mathematician since antiquity, Gauss had
+        an exceptional influence in many fields of mathematics and science, and is ranked among historys
+        most influential mathematicians.</string>
 </resources>

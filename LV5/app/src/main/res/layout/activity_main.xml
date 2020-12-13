@@ -30,16 +30,116 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ButtonInspiration"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp">
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
 
         <TableRow>
+
             <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/curved"
+                android:layout_marginRight="20dp">
+                <ImageView
+                    android:id="@+id/ivRow1"
+                    android:src="@drawable/euler"
+                    android:contentDescription="@string/nameEuler"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:id="@+id/tv_row1_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ivRow1"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/nameEuler"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/tv_row1_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ivRow1"
+                    android:layout_below="@+id/tv_row1_name"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/ageEuler"/>
+                <TextView
+                    android:id="@+id/tv_row1_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ivRow1"
+                    android:layout_below="@+id/tv_row1_age"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/descEuler"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:scrollHorizontally="false"
+                    android:breakStrategy="balanced"/>
+
+
 
             </RelativeLayout>
         </TableRow>
+        <TableRow>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/curved"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp">
+                <ImageView
+                    android:id="@+id/ivRow2"
+                    android:src="@drawable/gauss"
+                    android:contentDescription="@string/nameEuler"
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:id="@+id/tv_row2_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ivRow2"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/nameGauss"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/tv_row2_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ivRow2"
+                    android:layout_below="@+id/tv_row2_name"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/ageGauss"/>
+                <TextView
+                    android:id="@+id/tv_row2_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ivRow2"
+                    android:layout_below="@+id/tv_row2_age"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/descGauss"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:scrollHorizontally="false"
+                    android:breakStrategy="balanced"/>
+
+
+
+            </RelativeLayout>
+        </TableRow>
+
     </TableLayout>
 
 
