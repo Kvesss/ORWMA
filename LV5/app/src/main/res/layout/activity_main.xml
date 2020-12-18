@@ -16,7 +16,7 @@
         android:textStyle="bold"
         android:gravity="center"
         android:layout_marginTop="10dp"
-        android:textSize="15sp"
+        android:textSize="@dimen/topSize"
         android:layout_toRightOf="@+id/ButtonInspiration" />
 
     <Button
@@ -31,9 +31,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ButtonInspiration"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
+        android:layout_marginTop="@dimen/tableMargin"
+        android:layout_marginLeft="@dimen/tableMargin"
+        android:layout_marginRight="@dimen/tableMargin">
 
         <TableRow>
 
@@ -48,15 +48,15 @@
                     android:contentDescription="@string/nameEuler"
                     android:layout_height="@dimen/imageHeight"
                     android:layout_width="@dimen/imageWidth"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"/>
+                    android:layout_marginLeft="@dimen/imageHorizontalMargin"
+                    android:layout_marginTop="@dimen/imageVerticalMargin"
+                    android:layout_marginBottom="@dimen/imageVerticalMargin"/>
                 <TextView
                     android:id="@+id/tv_row1_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/ivRow1"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginLeft="@dimen/textHorizontalMargin"
                     android:text="@string/nameEuler"
                     android:textStyle="bold"
                     android:textColor="@color/black"
@@ -67,7 +67,7 @@
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/ivRow1"
                     android:layout_below="@+id/tv_row1_name"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginLeft="@dimen/textHorizontalMargin"
                     android:text="@string/ageEuler"/>
                 <TextView
                     android:id="@+id/tv_row1_desc"
@@ -75,7 +75,7 @@
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/ivRow1"
                     android:layout_below="@+id/tv_row1_age"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginLeft="@dimen/textHorizontalMargin"
                     android:text="@string/descEuler"
                     android:ellipsize="end"
                     android:maxLines="3"
@@ -101,15 +101,15 @@
                     android:contentDescription="@string/nameGauss"
                     android:layout_height="@dimen/imageHeight"
                     android:layout_width="@dimen/imageWidth"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"/>
+                    android:layout_marginLeft="@dimen/imageHorizontalMargin"
+                    android:layout_marginTop="@dimen/imageVerticalMargin"
+                    android:layout_marginBottom="@dimen/imageVerticalMargin"/>
                 <TextView
                     android:id="@+id/tv_row2_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/ivRow2"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginLeft="@dimen/textHorizontalMargin"
                     android:text="@string/nameGauss"
                     android:textStyle="bold"
                     android:textColor="@color/black"
@@ -120,7 +120,7 @@
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/ivRow2"
                     android:layout_below="@+id/tv_row2_name"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginLeft="@dimen/textHorizontalMargin"
                     android:text="@string/ageGauss"/>
                 <TextView
                     android:id="@+id/tv_row2_desc"
@@ -128,7 +128,7 @@
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/ivRow2"
                     android:layout_below="@+id/tv_row2_age"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginLeft="@dimen/textHorizontalMargin"
                     android:text="@string/descGauss"
                     android:ellipsize="end"
                     android:maxLines="3"
@@ -155,15 +155,15 @@
                     android:contentDescription="@string/nameLeibniz"
                     android:layout_height="@dimen/imageHeight"
                     android:layout_width="@dimen/imageWidth"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"/>
+                    android:layout_marginLeft="@dimen/imageHorizontalMargin"
+                    android:layout_marginTop="@dimen/imageVerticalMargin"
+                    android:layout_marginBottom="@dimen/imageVerticalMargin"/>
                 <TextView
                     android:id="@+id/tv_row3_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/ivRow3"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginLeft="@dimen/textHorizontalMargin"
                     android:text="@string/nameLeibniz"
                     android:textStyle="bold"
                     android:textColor="@color/black"
@@ -174,7 +174,7 @@
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/ivRow3"
                     android:layout_below="@+id/tv_row3_name"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginLeft="@dimen/textHorizontalMargin"
                     android:text="@string/ageLeibniz"/>
                 <TextView
                     android:id="@+id/tv_row3_desc"
@@ -182,7 +182,7 @@
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/ivRow3"
                     android:layout_below="@+id/tv_row3_age"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginLeft="@dimen/textHorizontalMargin"
                     android:text="@string/descLeibniz"
                     android:ellipsize="end"
                     android:maxLines="3"
@@ -209,6 +209,7 @@
             android:layout_marginTop="10dp"
             android:hint="@string/hintDescription"
             android:inputType="textMultiLine"
+
             android:backgroundTint="@color/teal_200"/>
 
         <Button

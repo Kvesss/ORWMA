@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Famous Scientists</string>
+    <string name="app_name">Hall Of Fame</string>
     <string name="inspiration">INSPIRATION</string>
     <string name="Top3">TOP 3</string>
     <string name="nameEuler">Leonhard Euler</string>

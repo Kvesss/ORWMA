@@ -96,15 +96,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnEditDescription:
                 if(people.get(0).isChecked()){
-                    descriptions.get(0).setText(enterNewDescription.getText());
+                    descriptions.get(0).setText(enterNewDescription.getText().toString());
                     enterNewDescription.setText("");
                 }
                 else if(people.get(1).isChecked()) {
-                    descriptions.get(1).setText(enterNewDescription.getText());
+                    descriptions.get(1).setText(enterNewDescription.getText().toString());
                     enterNewDescription.setText("");
                 }
                 else if(people.get(2).isChecked()) {
-                    descriptions.get(2).setText(enterNewDescription.getText());
+                    descriptions.get(2).setText(enterNewDescription.getText().toString());
                     enterNewDescription.setText("");
                 }
                 else

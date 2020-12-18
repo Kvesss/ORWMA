@@ -3,5 +3,10 @@
     <dimen name ="nameFont">20sp</dimen>
     <dimen name="imageHeight">100dp</dimen>
     <dimen name="imageWidth">100dp</dimen>
+    <dimen name="imageVerticalMargin">10dp</dimen>
+    <dimen name="imageHorizontalMargin">10dp</dimen>
+    <dimen name="textHorizontalMargin">5dp</dimen>
+    <dimen name="tableMargin">10dp</dimen>
+    <dimen name="topSize">15sp</dimen>
 
 </resources>
