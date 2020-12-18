@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quotes">
+        <item>This is the best of all possible worlds.</item>
+        <item>He who hasn\'t tasted bitter things hasn\'t earned sweet things.</item>
+        <item>He who does not act does not exist.</item>
+        <item>It is not knowledge, but the act of learning, not possession but the act of getting there, which grants the greatest enjoyment.</item>
+        <item>God does arithmetic.</item>
+        <item>When a philosopher says something that is true then it is trivial. When he says something that is not trivial then it is false.</item>
+        <item>Nothing takes place in the world whose meaning is not that of some maximum or minimum.</item>
+        <item>For the sake of brevity, we will always represent this number 2.718281828459… by the letter e.</item>
+        <item>e^(iπ)+1 = 0</item>
+    </string-array>
+</resources>

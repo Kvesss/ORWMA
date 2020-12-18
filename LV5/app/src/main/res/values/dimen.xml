@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name ="nameFont">20sp</dimen>
+    <dimen name="imageHeight">100dp</dimen>
+    <dimen name="imageWidth">100dp</dimen>
+
+</resources>

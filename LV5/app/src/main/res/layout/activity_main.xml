@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey_light"
+    android:background="@color/gray_light"
     tools:context=".MainActivity">
 
     <TextView
@@ -24,9 +24,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/inspiration"
-        android:layout_marginLeft="25dp"/>
+        android:layout_marginLeft="25dp" />
 
     <TableLayout
+        android:id="@+id/tl_scientists"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ButtonInspiration"
@@ -45,8 +46,8 @@
                     android:id="@+id/ivRow1"
                     android:src="@drawable/euler"
                     android:contentDescription="@string/nameEuler"
-                    android:layout_height="100dp"
-                    android:layout_width="100dp"
+                    android:layout_height="@dimen/imageHeight"
+                    android:layout_width="@dimen/imageWidth"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"/>
@@ -59,7 +60,7 @@
                     android:text="@string/nameEuler"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="20sp"/>
+                    android:textSize="@dimen/nameFont"/>
                 <TextView
                     android:id="@+id/tv_row1_age"
                     android:layout_width="wrap_content"
@@ -97,9 +98,9 @@
                 <ImageView
                     android:id="@+id/ivRow2"
                     android:src="@drawable/gauss"
-                    android:contentDescription="@string/nameEuler"
-                    android:layout_height="100dp"
-                    android:layout_width="100dp"
+                    android:contentDescription="@string/nameGauss"
+                    android:layout_height="@dimen/imageHeight"
+                    android:layout_width="@dimen/imageWidth"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"/>
@@ -112,7 +113,7 @@
                     android:text="@string/nameGauss"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="20sp"/>
+                    android:textSize="@dimen/nameFont"/>
                 <TextView
                     android:id="@+id/tv_row2_age"
                     android:layout_width="wrap_content"
@@ -140,7 +141,118 @@
             </RelativeLayout>
         </TableRow>
 
+        <TableRow>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/curved"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp">
+                <ImageView
+                    android:id="@+id/ivRow3"
+                    android:src="@drawable/leibniz"
+                    android:contentDescription="@string/nameLeibniz"
+                    android:layout_height="@dimen/imageHeight"
+                    android:layout_width="@dimen/imageWidth"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:id="@+id/tv_row3_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ivRow3"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/nameLeibniz"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/nameFont"/>
+                <TextView
+                    android:id="@+id/tv_row3_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ivRow3"
+                    android:layout_below="@+id/tv_row3_name"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/ageLeibniz"/>
+                <TextView
+                    android:id="@+id/tv_row3_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ivRow3"
+                    android:layout_below="@+id/tv_row3_age"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/descLeibniz"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:scrollHorizontally="false"
+                    android:breakStrategy="balanced"/>
+
+
+
+            </RelativeLayout>
+        </TableRow>
+
     </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tl_scientists">
+
+        <EditText
+            android:id="@+id/etEnterNewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hintDescription"
+            android:inputType="textMultiLine"
+            android:backgroundTint="@color/teal_200"/>
+
+        <Button
+            android:id="@+id/btnEditDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etEnterNewDescription"
+            android:text="@string/editDescription"
+            android:backgroundTint="@color/teal_200"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnEditDescription"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            >
+
+            <RadioButton
+                android:id="@+id/radBtnFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radBtnFirst"
+                android:buttonTint="@color/teal_200"/>
+            <RadioButton
+                android:id="@+id/radBtnSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radBtnSecond"
+                android:buttonTint="@color/teal_200"/>
+            <RadioButton
+                android:id="@+id/radBtnThird"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radBtnThird"
+                android:buttonTint="@color/teal_200"/>
+
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
 
 
 

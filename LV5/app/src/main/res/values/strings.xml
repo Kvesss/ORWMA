@@ -5,9 +5,9 @@
     <string name="nameEuler">Leonhard Euler</string>
     <string name="nameGauss">Carl Friedrich Gauss</string>
     <string name="nameLeibniz">Gottfried Wilhelm Leibniz</string>
-    <string name="ageEuler">1707. - 1783.</string>
-    <string name="ageGauss">1777. - 1855</string>
-    <string name="ageLeibniz">1646- - 1716</string>
+    <string name="ageEuler">1707 - 1783</string>
+    <string name="ageGauss">1777 - 1855</string>
+    <string name="ageLeibniz">1646 - 1716</string>
     <string name="descEuler">Leonhard Euler was a Swiss mathematician, physicist, astronomer, geographer, logician
         and engineer who made important and influential discoveries in many branches of mathematics, such as infinitesimal
         calculus and graph theory, while also making pioneering contributions to several branches such as topology and analytic
@@ -15,8 +15,23 @@
         mathematical analysis, such as the notion of a mathematical function. He is also known for his work in mechanics,
         fluid dynamics, optics, astronomy and music theory.</string>
     <string name="descGauss">Johann Carl Friedrich Gauss was a German mathematician and physicist who made significant
-        contributions to many fields in mathematics and science. Sometimes referred to as the Princeps mathematicorum
-        (Latin for the foremost of mathematicians) and the greatest mathematician since antiquity, Gauss had
-        an exceptional influence in many fields of mathematics and science, and is ranked among historys
-        most influential mathematicians.</string>
+        contributions to many fields in mathematics and science. Gauss was a child prodigy. There are many anecdotes concerning
+        his precocity as a child, and he made his first ground-breaking mathematical discoveries while still a teenager.
+        Sometimes referred to as the Princeps mathematicorum(Latin for \"the foremost of mathematicians\") and the greatest
+        mathematician since antiquity, Gauss hadan exceptional influence in many fields of mathematics and science,
+        and is ranked among history\'s most influential mathematicians.</string>
+    <string name="descLeibniz">Gottfried Wilhelm (von) Leibniz was a prominent German polymath and one of the most important
+        logicians, mathematicians and natural philosophers of the Enlightenment. As a representative of the seventeenth century
+        tradition of rationalism, Leibniz developed, as his most prominent accomplishment, the ideas of differential and integral
+        calculus. Leibniz made major contributions to physics and technology, and anticipated notions that surfaced much later in
+        philosophy, probability theory, biology, medicine, geology, psychology, linguistics, and computer science. He wrote works
+        on philosophy, politics, law, ethics, theology, history, and philology.</string>
+
+
+    <string name="hintDescription">Enter new description</string>
+    <string name="editDescription">Edit Description</string>
+    
+    <string name="radBtnFirst">First person</string>
+    <string name="radBtnSecond">Second person</string>
+    <string name="radBtnThird">Third person</string>
 </resources>
