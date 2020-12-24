@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="itemFontSize">20sp</dimen>
+
+
+    <dimen name="editTextWidth">300dp</dimen>
+    <dimen name="buttonMargin">10dp</dimen>
+
+</resources>
