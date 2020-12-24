@@ -4,6 +4,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -63,7 +64,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.NameViewHo
 
         private ButtonClickListener buttonClickListener;
         private final TextView textView;
-        private final Button buttonRemove;
+        private final ImageButton buttonRemove;
 
         public NameViewHolder(@NonNull View itemView, ButtonClickListener buttonClickListener) {
             super(itemView);

@@ -4,7 +4,7 @@
     <dimen name="itemFontSize">20sp</dimen>
 
 
-    <dimen name="editTextWidth">300dp</dimen>
+    <dimen name="editTextWidth">250dp</dimen>
     <dimen name="addButtonMargin">10dp</dimen>
     <dimen name="removeButtonMargin">20dp</dimen>
     <dimen name="textViewMargin">30dp</dimen>

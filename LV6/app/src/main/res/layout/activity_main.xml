@@ -34,9 +34,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/enterName"
         android:onClick="addName"
-
+        android:layout_marginLeft="@dimen/addButtonMargin"
         android:layout_marginRight="@dimen/addButtonMargin"
-        android:text="@string/addText"/>
+        android:text="@string/addText"
+        android:textColor="@color/white"/>
 
 
 

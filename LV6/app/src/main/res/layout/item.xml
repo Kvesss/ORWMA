@@ -15,31 +15,31 @@
         app:layout_constraintTop_toTopOf="parent"
         android:textSize="@dimen/itemFontSize"/>
 
-    <Button
+<!--    <Button-->
+<!--        android:id="@+id/buttonRemove"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/removeButtonMargin"-->
+<!--        android:layout_marginRight="@dimen/removeButtonMargin"-->
+<!--        android:text="@string/removeButtonText"-->
+<!--        android:textColor="@color/white"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:onClick="removeName"-->
+<!--        android:backgroundTint="@color/red"/>-->
+    <ImageButton
         android:id="@+id/buttonRemove"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/removeButtonMargin"
-        android:layout_marginRight="@dimen/removeButtonMargin"
-        android:text="@string/removeButtonText"
-        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_delete"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:onClick="removeName"
-        android:backgroundTint="@color/red"/>
-<!--    <ImageButton-->
-<!--        android:id="@+id/searchImageButton"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_alignParentTop="true"-->
-<!--        android:layout_alignParentRight="true"-->
-<!--        android:src="@android:drawable/ic_delete"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        android:layout_marginTop="20dp"-->
-<!--        android:layout_marginRight="20dp"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        android:onClick="removeName"/>-->
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/white"
+        android:onClick="removeName"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
