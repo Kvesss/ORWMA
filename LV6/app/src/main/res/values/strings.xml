@@ -3,7 +3,7 @@
     <string name="addText">ADD</string>
     <string name="editTextHint">Enter student name</string>
     <string name="buttonDelete">delete</string>
-
+    <string name="removeButtonText">Remove</string>
     <string name="toastMessage">Please enter name</string>
     <string name="empty"></string>
 </resources>

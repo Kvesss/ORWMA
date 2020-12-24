@@ -35,7 +35,7 @@
         app:layout_constraintLeft_toRightOf="@+id/enterName"
         android:onClick="addName"
 
-        android:layout_marginRight="@dimen/buttonMargin"
+        android:layout_marginRight="@dimen/addButtonMargin"
         android:text="@string/addText"/>
 
 
