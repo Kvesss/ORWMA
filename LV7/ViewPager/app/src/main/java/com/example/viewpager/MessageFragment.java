@@ -29,4 +29,8 @@ public class MessageFragment extends Fragment {
     public static void displayMessage(String message){
         mTextView.setText(!message.trim().isEmpty() ? message : "...");
     }
+
+    public static MessageFragment newInstance(){
+        return new MessageFragment();
+    }
 }

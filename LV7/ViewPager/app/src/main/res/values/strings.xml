@@ -11,4 +11,5 @@
     <string name="removeButtonText">Remove</string>
     <string name="toastMessage">Please enter name</string>
     <string name="empty"></string>
+    <string name="wrongKey">Wrong Key! Try again</string>
 </resources>

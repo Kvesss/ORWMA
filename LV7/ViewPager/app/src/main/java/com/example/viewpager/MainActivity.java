@@ -27,9 +27,9 @@ public class MainActivity extends AppCompatActivity {
     private void setupViewPager() {
         List<Fragment> fragmentList = new ArrayList<>();
         fragmentList.add(SubmitFragment.newInstance());
-        fragmentList.add(new MessageFragment());
+        fragmentList.add(MessageFragment.newInstance());
         fragmentList.add(RecycleViewFragment.newInstance());
-        fragmentList.add(SlideFragment.newInstance("This is fragment #4"));
+        fragmentList.add(ModularFragment.newInstance("guess:______"));
         SlidePagerAdapter adapter = new SlidePagerAdapter(getSupportFragmentManager(), fragmentList);
         mViewPager.setAdapter(adapter);
         mTabLayout.setupWithViewPager(mViewPager);
