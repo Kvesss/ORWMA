@@ -19,13 +19,14 @@
 
     <EditText
         android:id="@+id/enterName"
-        android:layout_width="@dimen/editTextWidth"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/editTextHint"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/etAddButton"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="100dp"/>
 
     <Button
         android:id="@+id/etAddButton"
@@ -34,7 +35,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/enterName"
         android:onClick="addName"
-        android:layout_marginLeft="@dimen/addButtonMargin"
+
         android:layout_marginRight="@dimen/addButtonMargin"
         android:text="@string/addText"
         android:textColor="@color/white"/>

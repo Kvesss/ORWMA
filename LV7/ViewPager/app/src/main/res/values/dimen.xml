@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <dimen name="etSubmitMargin">20dp</dimen>
+    <dimen name="etSubmitWidth">250dp</dimen>
+    <dimen name="addButtonMargin">20dp</dimen>
+
+
+    <dimen name="itemFontSize">20sp</dimen>
+
+
+    <dimen name="editTextWidth">250dp</dimen>
+    <dimen name="removeButtonMargin">20dp</dimen>
+    <dimen name="textViewMargin">30dp</dimen>
+
+</resources>

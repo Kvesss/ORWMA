@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ViewPager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submitHint">Enter text…</string>
+    <string name="btnSubmitText">SUBMIT</string>
+    <string name="editTextHint">Enter name</string>
+    <string name="addText">ADD</string>
+
+    <string name="buttonDelete">delete</string>
+    <string name="removeButtonText">Remove</string>
+    <string name="toastMessage">Please enter name</string>
+    <string name="empty"></string>
+</resources>

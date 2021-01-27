@@ -5,10 +5,10 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.ViewPager;
 
-public class ZoomOutPageTransformer implements ViewPager.PageTransformer {
+public class CubeOutPageTransformer implements ViewPager.PageTransformer {
 
-    private static final float MIN_SCALE = 0.85f;
-    private static final float MIN_ALPHA = 0.5f;
+//    private static final float MIN_SCALE = 0.85f;
+//    private static final float MIN_ALPHA = 0.5f;
 
     @Override
     public void transformPage(@NonNull View page, float position) {
